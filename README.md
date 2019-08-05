@@ -15,5 +15,5 @@ gcc main.c render_stdio.c && ./a.out && rm a.out
 
 To generate a `html` file (with 256-cubed colors):
 ```
-gcc main.c render_stdio.c && ./a.out > index.html && rm a.out
+gcc main.c render_html.c && ./a.out > index.html && rm a.out
 ```
